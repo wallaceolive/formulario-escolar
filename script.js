@@ -14,7 +14,7 @@ function login() {
     }
 
     if (email === "admin@email.com" && senha === "123456") {
-        window.location.href = 'formulario.html'
+        window.location.href = './formulario.html'
         return
     }
     else {
